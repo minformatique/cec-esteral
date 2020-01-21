@@ -27,6 +27,6 @@ Afin de compiler cec (en détaillant toutes les étapes):
  - Compilez avec make : $ make
  - Installez avec make : $ make install
 
-Si jamais cec ne parvient pas à compiler et vous renvoie un message comme "libcec.so.0.4.1 is not found" ou quelque chose de semblable c'est parce que la librairie libcec.so a été placée dans /usr/lib/ qui n'est peut-être pas indexé. Pour régler le problème, vous pouvez soit indexer le dossier dans lequel se trouve libcec.so (par exemple avec ld) soit copier libcec.so et libicec.so.0.4.1 dans un emplacement indexé (par exemple /lib).
+Si jamais cec ne parvient pas à s'exécuter et vous renvoie un message comme "libcec.so.0.4.1 is not found" ou quelque chose de semblable c'est parce que la librairie libcec.so a été placée dans /usr/lib/ qui n'est peut-être pas indexé. Pour régler le problème, vous pouvez soit indexer le dossier dans lequel se trouve libcec.so (par exemple avec ld) soit copier libcec.so et libicec.so.0.4.1 dans un emplacement indexé (par exemple /lib).
 
 Attention cependant, il semble que cec n'est jamais été vraiment fini (Esterel en général non plus d'ailleurs) et le compilateur risque de ne pas toujours se comporter comme il le devrait.
